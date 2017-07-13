@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<head>
+<title>WORLD FACTS</title>
+</head>
+<body>
+<header>
+<img src="globe.jpg" alt="globe" width="50px" height="50px"/>
+<h1>WORLD FACTS</h1>
+<hr/>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Continents</a></li>
+<li><a href="#">Countries</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Feedback</a></li>
+<li><a href="#">Contact</a></li>
+</ul>	
+</nav>	
+</header>
+<section>
+<article><a href="https://en.wikipedia.org/wiki/North_America">NORTH AMERICA</a></article>
+</section>
+<section>
+<article><a href="https://en.wikipedia.org/wiki/South_America">SOUTH AMERICA</a></article>
+<section>
+<section>
+<article><a href="https://en.wikipedia.org/wiki/Antartica">ANTARTICA</a></article>
+</section>
+<section>
+<article><a href="https://en.wikipedia.org/wiki/Europe">EUROPE</a></article>
+</section>
+<section>
+<article><a href="https://en.wikipedia.org/wiki/Asia">ASIA</a></article>
+</section>
+<section>
+<article><a href="https://en.wikipedia.org/wiki/Africa">AFRICA</a></article>
+</section>
+<section>
+<article><a href="https://en.wikipedia.org/wiki/Australia">AUSTRALIA</a></article>
+</section>
+<br/>
+<hr/>
+<section>
+<article><a href="thefacts.com/news/">NEWS FACTS</a></article>
+<article><a href="https://en.wikipedia.org/wiki/Ocean">OCEANS</a></article>
+<article><a href="environment.nationalgeographic.com/environment/habitats/desert-profile/">DESERTS</a></article>
+<article><a href="https://en.wikipedia.org/wiki/History">HISTORY</a></article>
+</section>
+<aside>
+<p>Avail<br/>50% off<br/>today!!!<br/>Offer limited!!</p>
+<a href="http://flipkart.com" target="_blank">BUY NOW</a>
+</aside>
+<hr/>
+<footer>
+Copyright &copy; | WORLD FACTS&trade; | 2017<br/>
+Created by Noble Joy | With &hearts; | Disclaimer
+</footer>
+
+.css code
+
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<title>WORLD FACTS</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width: 1500px;
+margin:auto;
+}
+aside{
+margin-left:1050;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+border-right: 1px solid #bbb;
+float: left;
+}
+li:last-child {
+border-right: none;
+}
+
+li a {
+margin-right:0px;
+display: block;
+color: white;
+text-align: center;
+padding: 25px 73px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+text-decoration: none;
+}
+.division{
+width:337px;
+height:150px;
+float:left;
+text-align:center;
+border:3px solid black;
+position:relative;
+bottom:20px;
+}
+
+#head{
+position:absolute;
+left:65px;
+top:-10px;
+text-shadow:3px 2px black;
+color:blue;
+font-family:monotype corsiva;
+
+}
+#xx{
+position:relative;
+left:500px;
+}
+#box{
+padding:10px;
+background:url(image.jpg);
+border:3px solid black;
+margin-right:0px;
+margin-left:0px;
+}
+.na{
+border:3px solid black;
+border-bottom:3px dotted black;
+border-top:3px dotted black;
+padding:100px;
+}
+body{
+margin:0px;
+margin-top:0px;
+background:url(back.jpg);
+}
+#log{
+margin-left:1050px;
+}
+.btn-default:hover{
+background-color:blue;
+}
+.glyphicon-triangle-bottom{
+font-size:10px;
+margin-left:5px;
+}
+.txt{
+font-size:80px;
+text-align:center;
+}
+a:hover{
+text-decoration:none;
+color:green;
+}
+#NA{
+background:url(north_america.jpg);
+background-repeat:no-repeat;
+background-position:top;
+background-size: 1400px; 
+background-attachment:fixed;
+}
+#SA{
+background:url(south_america.jpg);
+background-repeat:no-repeat;
+background-position:top;
+background-size: 1400px; 
+background-attachment:fixed;
+}
+#AA{
+background:url(Antarctica.jpg);
+background-repeat:no-repeat;
+background-position:top;
+background-size: 1400px; 
+background-attachment:fixed;
+}
+#EU{
+background:url(europe.jpg);
+background-repeat:no-repeat;
+background-position:top;
+background-size: 1400px; 
+background-attachment:fixed;
+}
+#AS{
+background:url(asia.jpg);
+background-repeat:no-repeat;
+background-position:top;
+background-size: 1400px; 
+background-attachment:fixed;
+}
+
+.label-primary{
+color:black;
+background-color:transparent;
+}
+#AF{
+background:url(africa.jpg);
+background-repeat:no-repeat;
+background-position:top;
+background-size: 1400px; 
+background-attachment:fixed;
+}
+#AU{
+background:url(australia.jpg);
+background-repeat:no-repeat;
+background-position:top;
+background-size: 1400px; 
+background-attachment:fixed;
+}
+.bt{
+margin-top:50px;
+font-size:40px;
+}
+footer{
+position:relative;
+top:0px;
+color:white;
+margin-left:550px;
+}
+#firstDivistion{
+background:url(news.jpg);
+}
+#secondDivistion{
+background:url(ocean.jpg);
+}
+#thirdDivistion{
+background:url(desert.jpg);
+}
+#fourthDivistion{
+background:url(leaders.jpg);
+}
+#f{
+margin-left:620px;
+color:white;
+}
+hr{
+color:black;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+<div id="box">
+<div id="xx">
+<img src="globe.jpg" alt="globe" width="50px" height="50px" class="img-circle"/>
+<div id="head">
+<h1 style="font-size:50px;">WORLD FACTS</h1>
+</div>
+</div>
+<form class="navbar-form navbar-left" role="search">
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Search">
+</div>
+<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+</form>
+<div id="log">
+<button type="button" class="btn btn-default navbar-btn" action="form.html">LOGIN</button>
+<button type="button" class="btn btn-default navbar-btn">SIGN UP</button>
+</div>
+</div>
+<nav>
+<ul>
+<li><a href="#">HOME</a></li>
+<li><a href="#">CONTINENTS<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a></li>
+<li><a href="#">COUNTRIES<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></a></li>
+<li><a href="#">ABOUT US</a></li>
+<li><a href="#">FEEDBACK</a></li>
+<li><a href="#">CONTACT</a></li>
+</ul>	
+</nav>	
+</header>
+<div class="container">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+<li data-target="#myCarousel" data-slide-to="3"></li>
+<li data-target="#myCarousel" data-slide-to="4"></li>
+<li data-target="#myCarousel" data-slide-to="5"></li>
+<li data-target="#myCarousel" data-slide-to="6"></li>
+</ol>
+
+<!-- <!-- Wrapper for slides --- -->
+<div class="carousel-inner" role="listbox">
+
+<div class="item active">
+<img src="na.jpg" alt="Statue of Liberty" width="1500" height="1115">
+<div class="carousel-caption">
+<h3>Statue of Liberty,USA</h3>
+</div>
+</div>
+
+<div class="item">
+<img src="sa.jpg" alt="" width="1500" height="345">
+<div class="carousel-caption">
+<h3>Statue of Christ The Redeemer,Rio</h3>
+</div>
+</div>
+
+<div class="item">
+<img src="an.jpg" alt="Penguins" width="460" height="345">
+<div class="carousel-caption">
+<h3>Antartica Penguins</h3>
+</div>
+</div>
+
+<div class="item">
+<img src="eu.jpg" alt="Big Ben" width="460" height="345">
+<div class="carousel-caption">
+<h3>Big Ben,London</h3>
+</div>
+</div>
+
+<div class="item">
+<img src="as.jpg" alt="The Great Wall of China" width="460" height="345">
+<div class="carousel-caption">
+<h3>The Great Wall of China,Asia</h3>
+</div>
+</div>
+
+<div class="item">
+<img src="af.jpg" alt="Victoria Falls" width="460" height="345">
+<div class="carousel-caption">
+<h3>Victoria Falls,Africa</h3>
+</div>
+</div>
+
+<div class="item">
+<img src="au.jpg" alt="Sydney Harbour Bridge" width="460" height="345">
+<div class="carousel-caption">
+<h3>Sydney Harbour Bridge,Australia</h3>
+</div>
+</div>
+
+</div>
+
+<!-- Left and right controls -->
+<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+<div id="NA">
+<section class="na">
+<article class="txt"><a href="https://en.wikipedia.org/wiki/North_America"><span class="label label-primary">NORTH AMERICA</span></a></article>
+</section>
+</div>
+<div id="SA">
+<section class="na">
+<article class="txt"><a href="https://en.wikipedia.org/wiki/South_America"><span class="label label-primary">SOUTH AMERICA</span></a></article>
+</section>
+</div>
+<div id="AA">
+<section class="na">
+<article class="txt"><a href="https://en.wikipedia.org/wiki/Antartica"><span class="label label-primary">ANTARCTICA</span></a></article>
+</section>
+</div>
+<div id="EU">
+<section class="na">
+<article class="txt"><a href="https://en.wikipedia.org/wiki/Europe"><span class="label label-primary">EUROPE</span></a></article>
+</section>
+</div>
+<div id="AS">
+<section class="na">
+<article class="txt"><a href="https://en.wikipedia.org/wiki/Asia"><span class="label label-primary">ASIA</span></a></article>
+</section>
+</div>
+<div id="AF">
+<section class="na">
+<article class="txt"><a href="https://en.wikipedia.org/wiki/Africa"><span class="label label-primary">AFRICA</span></a></article>
+</section>
+</div>
+<div id="AU">
+<section class="na">
+<article class="txt"><a href="https://en.wikipedia.org/wiki/Australia"><span class="label label-primary">AUSTRALIA</span></a></article>
+</section>
+</div>
+<br/>
+<section>
+<div id="firstDivistion" class="division"><article class="bt"><a href="thefacts.com/news/">NEWS FACTS</a></article></div>
+<div id="secondDivistion" class="division"><article class="bt"><a href="https://en.wikipedia.org/wiki/Ocean">OCEANS</a></article></div>
+<div id="thirdDivistion" class="division"><article class="bt"><a href="environment.nationalgeographic.com/environment/habitats/desert-profile/">DESERTS</a></article></div>
+<div id="fourthDivistion" class="division"><article class="bt"><a href="fortune.com/2014/03/20/worlds-50-greatest-leaders/">LEADERS</a></article></div>
+</section>
+<div id="f">
+<aside>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;Avail<br/>&nbsp;&nbsp;50% off<br/>&nbsp;&nbsp;today!!!<br/>Offer limited!!</p>
+<a href="http://flipkart.com" target="_blank"><h4><span class="label label-default">BUY NOW!!</span></h4></a>
+</aside>
+</div>
+<hr/>
+<footer>
+&nbsp;&nbsp;Copyright &copy; | WORLD FACTS&trade; | 2017<br/>
+Created by Noble Joy | With &hearts; | Disclaimer
+</footer>
+
+</body>
